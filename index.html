@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="/CSS/xrayzuframework.css">
     <!-- Scripts -->
     <script src="/JavaScripts/xrayzuframework.js" defer></script>
+    <script src="/JavaScripts/xrayzuframework_header.js" defer></script>
 
     <!-- Titel -->
     <title>xrayzu.com</title>
@@ -36,30 +37,37 @@
 
         <!-- Logo -->
         <a href="/" class="logo">
-            <img src="https://xrayzu.com/content/images/Emotes/XRayMusic%20-%20Emote.png" alt="">
+            <img src="https://xrayzu.com/content/images/XRayzu_Logo.png" alt="">
         </a>
 
-        <!-- Navigation | Normal -->
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Brand</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="menu_open"><i class="fa-solid fa-bars"></i></div>
-            <div class="menu_close"><i class="fa-solid fa-xmark"></i></div>
-        </nav>
+        <div class="navigation" id="navigation">
 
-        <!-- Navigation | SocialMedia -->
+            <!-- Navigation | Normal -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Brand</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Navigation | SocialMedia -->
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
         <nav>
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-discord"></i></a>
-                </li>
-            </ul>
+            <div class="mobile visible" id="menu_open"><i class="fa-solid fa-bars"></i></div>
+            <div class="mobile" id="menu_close"><i class="fa-solid fa-xmark"></i></div>
         </nav>
 
     </header>
