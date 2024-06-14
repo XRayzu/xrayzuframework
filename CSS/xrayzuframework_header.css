@@ -3,6 +3,7 @@
     display: none;
     font-size: 2rem;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .visible {
